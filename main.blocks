@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=")RnffZHewZ|CV,sL9z],">true</variable><variable id="Q|M#cXr;yl5pnVCmg;/L">ba ding</variable></variables><block type="device_forever" id="}$m/5V:-aL@DtB;5^Lid" x="0" y="0"><statement name="HANDLER"><block type="device_while" id="6Twm9F~iw$io#*i+aZ*X"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="edubit_is_ir_sensor_triggered" id="d3b:mulD152r$Ez~{UiJ"></block></value><statement name="DO"><block type="device_show_leds" id="H?Mi^2Vp4gYTtNEe]p3("><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="ZTBv{-]8k~e}yaidX7}T"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field></block></next></block></statement><next><block type="device_start_melody" id="qBh%%w%/|Hl7F(-g(fR?"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="Whi+q_%YY@9L2X%XEXk)"><field name="melody">Melodies.BaDing</field></block></value><next><block type="device_show_number" id="nw:{}]wIe!98ik1cePjP"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="i`;N]5ZAJv#jg:*S`S+g"><value name="min"><shadow type="math_number" id="tlwWz+D@4Q$1d`L#N[Yu"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id=":G4t9Bu.:v@]gSVNYZiI"><field name="NUM">6</field></shadow></value></block></value><next><block type="device_while" id="Uy,daWGhOBg$^loJ,oap"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="logic_negate" id="/4OiUAoPuDU=B=XTsu{U"><value name="BOOL"><block type="edubit_is_ir_sensor_triggered" id="qLuKmj+y_?oGN7pui+./"></block></value></block></value></block></next></block></next></block></next></block></statement></block></xml>
